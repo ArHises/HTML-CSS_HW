@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.site {
+    padding-left: 375px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #FFF;
+}
+
+.grow {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.be {
+    color: #F25822;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.navigation {
+    margin-top: 11px;
+    margin-left: 346px;
+}
+
+.header-link-home {
+    margin: 15px;
+    color: #F25822;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header-link {
+    margin: 15px;
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.theme {
+    color: #000;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.content {
+    display: flex;
+}
+
+.content-img {
+    margin-left: 40px;
+}
+
+.description {
+    padding-top: 17px;
+    padding-bottom: 37px;
+    color: #888;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.video {
+    display: flex;
+    align-items:first baseline;
+}
+
+.start-now-button {
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.watch {
+    margin-left: 72px;
+    color: #AAA;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer {
+    padding-top: 97px;
+}
+
+.footer-brands {
+    margin-right: 48px;
+}
