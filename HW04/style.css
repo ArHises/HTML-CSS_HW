@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #FFF;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-logo {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.grow {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.be {
+    color: #F25822;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.navigation {
+    margin-left: 20px;
+    display: flex;
+    gap: 32px;
+}
+
+.icon { 
+    display: flex;
+    gap: 4px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.header-link-home {
+    color: #F25822;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header-link {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+.theme {
+    width: 522px;
+    color: #000;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-img {
+    margin-left: 41px;
+    width: 544.814px;
+    height: 374.843px;
+    flex-shrink: 0;
+}
+
+.description {
+    padding-top: 17px;
+    padding-bottom: 37px;
+    color: #888;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 418px;
+}
+
+.video {
+    display: flex;
+    align-items: first baseline;
+}
+
+.start-now-button {
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.watch {
+    margin-left: 72px;
+    color: #AAA;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: normal;
+}
+
+.footer {
+    padding-top: 97px;
+    display: flex;
+    gap: 48px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
